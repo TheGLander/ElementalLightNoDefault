@@ -10,7 +10,7 @@ function fetchAndRegisterElementPack(url) {
 }
 
 Promise.all([
-    fetchAndRegisterElementPack('https://file.io/T55PDT'),
+    fetchAndRegisterElementPack('https://raw.githubusercontent.com/TheGLander/ElementalLightNoDefault/master/newDefault.txt'),
     // ...add more default packs
 ]).then(() => {
     document.getElementById('loading').remove();
